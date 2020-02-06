@@ -1,3 +1,4 @@
+
 .body{
     font-family: 'Lato', sans-serif;
     font-weight: 400;
@@ -25,6 +26,7 @@
 }
 .header{
     padding-bottom: 214px;
+    background-image: url(../img/bg.jpg);
 }
 .nav-top{
     display: flex;
@@ -41,6 +43,9 @@
 .info-link{
     color: rgba(255,255,255,0.3);
     font-size: 14px;
+}
+.info-link:hover{
+    color:#30a3f0 ;
 }
 .info-left .info-item{
     margin-right: 32px;
@@ -69,8 +74,11 @@
 }
 .nav-link:hover{
     color:#30a3f0 ;
-    border: 1px solid #30a3f0;
+    border: 1px solid transparent;
     border-radius: 5px;
+}
+.nav-link.active:hover{
+    border: 1px solid #30a3f0;
 }
 .title{
     margin-bottom: 40px;
@@ -84,6 +92,7 @@
     font-family: 'Raleway', sans-serif;
     color: #ffffff;
     font-size: 45px;
+    line-height: 60px;
     font-weight: 800;
     text-transform: uppercase;
     max-width: 720px;
@@ -111,6 +120,10 @@
     padding: 20px 42px;
     border-radius: 5px;
 }
+.btn:hover{
+    background-color: #30a3f0;
+    color: #ffffff;
+}
 .page-line{
     border-bottom: 1px solid #e4e4e4;
 }
@@ -136,10 +149,24 @@
 .title-h2{
     font-size: 30px;
     font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
 }
 .title-h2 span{
     font-size: 16px;
-    color:#30a3f0
+    font-weight: 400;
+    color:#30a3f0;
+    display: block;
+    text-transform: initial;
+    margin-bottom: 18px;
+}
+.line{
+    display: block;
+    width: 53px;
+    height: 16px;
+    background-image: url(../img/Line.svg);
+    background-repeat: no-repeat;
 }
 .decription{
     color: #707070;
