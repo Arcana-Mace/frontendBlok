@@ -8,6 +8,7 @@
     width: 100%;
     max-width: 1170px;
     margin: 0 auto;
+    position: relative;
 }
 .center{
     text-align: center;
@@ -149,6 +150,11 @@
 .page-line{
     border-bottom: 1px solid #e4e4e4;
 }
+.page-gray{
+    background-color: #fafafa;
+    padding-top: 100px;
+    padding-bottom: 62px;
+}
 .box{
     display: flex;
     border-left: 1px solid #e4e4e4;
@@ -156,7 +162,7 @@
 }
 .box-item{
     flex-basis: 33.333%;
-    padding: 0 60px 110px;
+    padding: 93px 60px 110px;
 }
 .box-item-center{
     border-left: 1px solid #e4e4e4;
@@ -195,5 +201,79 @@
 }
 .list-decription{
     color: #222222;
+    padding-left: 0%;
+    list-style-type: none;
 }
+.list-decription > li{
+    margin-bottom: 27px;
+    color: #222222;
+    padding-left: 37px;
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+.list-decription > li::before{
+    content: " ";
+    display: block;
+    width: 16px;
+    height: 14px;
+    background-image: url(../img/check.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 0;
+    top:calc(50% - 7px);
+}
+.page-mockup{
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+.mockup{
+    display: block;
+    width: 625px;
+    height: 557px;
+    background-image: url(../img/mockup.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    right:-78px;
+    bottom: 0;
+}
+.btn-blue{
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+    background-color:#30a3f0 ;
+    padding: 20px 39px;
+    border-radius: 5px;
+}
+.btn-blue:hover{
+    background-color:#111883 ;
+}
+.box-text{
+    max-width: 530px;
+}
+.box-icon{
+    width: 152px;
+    height: 152px;
+    font-size: 40px;
+    line-height: 3.5;
+    color: #222222;
+    background-image: url(../img/gray.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0 auto 26px;
+}
+.box-icon-pen{
+    font-size: 30px;
+    line-height: 4.8;
+}
+.box-item:hover .box-icon{
+    background-image: url(../img/blue.png);
+    color: #ffffff;
+}
+
+
 /*text2:font-family: 'Raleway', sans-serif;*/
