@@ -162,6 +162,11 @@
     background-color: #fafafa;
     padding-top: 100px;
 }
+.page-company{
+    background-color: #fdfdfd;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
 .box{
     display: flex;
     border-left: 1px solid #e4e4e4;
@@ -641,6 +646,95 @@
  .like:hover{
     background-color: #30a3f0;
     color: #ffffff;
+}
+.company{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.company-items{
+    display: block;
+    background-image: url(../img/company.png);
+    background-repeat: no-repeat;
+    height: 93px;
+}
+.company-one{
+    width: 118px;
+    flex-basis: 118px;
+    background-position: -17px center;
+}
+.company-two{
+    width: 126px;
+    flex-basis: 126px;
+    background-position: -213px center;
+}
+.company-three{
+    width: 97px;
+    flex-basis: 97px;
+    background-position: -429px center;
+}
+.company-four{
+    width: 122px;
+    flex-basis: 122px;
+    background-position: -616px center;
+}
+.company-five{
+    width: 90px;
+    flex-basis: 90px;
+    background-position: -832px center;
+}
+.company-six{
+    width: 128px;
+    flex-basis: 128px;
+    background-position: -1013px center;
+}
+.footer{
+    background-color: #151515;
+}
+.btn-footer{
+    background-color: #1a1a1a;
+    color: #707070;
+    font-size: 26px;
+    display: block;
+    width: 47px;
+    height: 34px;
+    margin: 0 auto;
+    border:none;
+    cursor: pointer;
+}
+.btn-footer:focus{
+    outline: none;
+}
+.footer-bg{
+    background-color: #1a1a1a;
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+.footer-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    color: rgba(255,255,255,0.3);
+}
+.footer-list{
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+}
+.footer-list > li{
+    padding-left:24px;
+    margin-left: 22px;
+    border-left: 1px solid #3a3a3a;
+}
+.footer-list > li:first-child{
+    padding-left:0;
+    margin-left: 0;
+    border-left: none;
+}
+.footer-list > li > a{
+    text-decoration: none;
+    color: rgba(255,255,255,0.3);
 }
 /*text
 /*text2:font-family: 'Raleway', sans-serif;*/
