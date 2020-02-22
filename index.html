@@ -294,7 +294,7 @@
            </div>
         </div>
         <div class="page page-gray">
-            <div class=" wrapper center">
+            <div class="wrapper center">
                 <h2 class="title-h2"><span>Website Mockup</span>Our Complete Pack</h2>
                 <div class="line-center"></div>
                 <p class="description">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus.</p>
@@ -456,5 +456,16 @@
         </div>
     </footer>
     <script src="js/all.min.js"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script>
+      $("#btnUp").click(function(){
+          $("html").animate({
+              scrollTop: 0
+          }, "slow");
+      });
+  </script>
 </body>
 </html>
